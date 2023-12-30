@@ -4,7 +4,6 @@ A simple web application that showcases responsive YouTube-style video cards. Th
 
 ## Features
 
-- **Responsive Design:** Ensures optimal viewing on various devices.
 - **Font Styling:** Utilizes the Roboto font for a modern and professional appearance.
 - **Dynamic Card Generation:** The JavaScript function `createCard` dynamically generates video cards with relevant details.
 - **View Count Formatting:** Provides a user-friendly display (K for thousands, M for millions).
