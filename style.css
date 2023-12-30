@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0f0f0f;
+    color: #fff;
+}
+
+.card {
+    /* border: 2px solid white; */
+    width: 100%;
+    display: flex;
+    margin: 4vh 20vh;
+    position: relative;
+}
+
+.img {
+    height: 90px;
+    width: 160px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container img {
+    height: 94px;
+    width: 168px;
+    object-fit: cover;
+    position: relative;
+    border-radius: 4px;
+}
+
+.time-duration {
+    bottom: 5px;
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+    margin-top: 0;
+    position: absolute;
+    font-size: 0.8rem;
+    font-family: 'Roboto';
+    background: rgba(0,0,0,0.8);
+    color: #FFF;
+    border-radius: 4px;
+    height: 12px;
+    padding: 4px;
+    left: 120px;
+}
+
+.description {
+    font-family: 'Roboto';
+}
+
+.title {
+    margin-bottom: 8px;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.channelName {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 20px;
+    color: #878484;
+}
